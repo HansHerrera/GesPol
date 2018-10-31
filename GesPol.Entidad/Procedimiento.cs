@@ -10,5 +10,8 @@ namespace GesPol.Models
         public Guid IdFuncionario { get; set; }
         public Guid IdTipoProd { get; set; }
         public int ProdEstado { get; set; }
+        public DateTime FechaOcurrencia { get; set; }
+        public string Ubicacion { get; set; }
+        public string Descripcion { get; set; }
     }
 }
