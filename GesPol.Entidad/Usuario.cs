@@ -11,5 +11,8 @@ namespace GesPol.Models
         public Guid IdFuncionario { get; set;  }
         public string rut { get; set; }
         public string password { get; set; }
+        public DateTime FechaCreacion { get; set; }
+        public DateTime FechaExpiracion { get; set; }
+
     }
 }
