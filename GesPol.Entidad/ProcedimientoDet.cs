@@ -10,6 +10,7 @@ namespace GesPol.Models
         public Guid IdProcedimiento { get; set; }
         public Guid IdTipoVehiculo { get; set; }
         public Guid IdTipoDroga { get; set; }
+        public Guid IdCiudadano { get; set; }
         
 
     }
