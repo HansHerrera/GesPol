@@ -21,6 +21,7 @@ namespace GesPol.Models
 
         public string Sexo { get; set; }
         public string EstadoCivil { get; set; }
+        public string EstadoCivil2 { get; set; }
 
         public Guid IdGrado { get; set; }
 
